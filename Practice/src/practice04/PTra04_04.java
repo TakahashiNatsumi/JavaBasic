@@ -46,7 +46,7 @@ public class PTra04_04 {
 			}else if(rest < 0) {
 				rest *= -1;
 				System.out.println("残り"+ rest + "マス");
-				progress = rest;
+				progress = map - rest;
 			}
 		}
 
