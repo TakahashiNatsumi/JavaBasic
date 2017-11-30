@@ -1,4 +1,5 @@
 /*
+
  * PTra14_02.java
  *   作成	LIKEIT	2017
  *------------------------------------------------------------
@@ -19,5 +20,13 @@ public class PTra14_02 {
 	 * 		正規化
 	 * 		SQL応用
 	 */
+
+	public static void main(String[] args) {
+
+		DBCourse DBcourse = new DBCourse();
+
+		DBcourse.getCourseUnit();
+
+	}
 
 }
