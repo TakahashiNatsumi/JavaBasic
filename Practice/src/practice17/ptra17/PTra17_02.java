@@ -6,10 +6,13 @@
  */
 package practice17.ptra17;
 
+import java.io.IOException;
+
 import practice17.common.ThrowExceptionUtil;
 
 public class PTra17_02 {
 	public static void main(String[] args) {
+
 		try {
 			dispInput();
 		} catch(Exception e) {
@@ -17,7 +20,7 @@ public class PTra17_02 {
 		}
 	}
 
-	public static void dispInput() {
+	public static void dispInput() throws IOException {
 
 		System.out.println("文字を入力してください");
 
