@@ -20,13 +20,13 @@ public class PTra14_02 {
 	 * 		正規化
 	 * 		SQL応用
 	 */
-
-	public static void main(String[] args) {
-
-		DBCourse DBcourse = new DBCourse();
-
-		DBcourse.getCourseUnit();
-
-	}
+//
+//	public static void main(String[] args) {
+//
+//		DBCourse DBcourse = new DBCourse();
+//
+//		DBcourse.getCourseUnit();
+//
+//	}
 
 }
