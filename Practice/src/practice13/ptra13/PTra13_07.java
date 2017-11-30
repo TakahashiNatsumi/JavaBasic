@@ -36,6 +36,20 @@ public class PTra13_07 {
 		 * 上記を繰り返し行います
 		 */
 
+		while(true){
+
+			if(slime.damage(superHero.attack())) {
+				System.out.println("スーパー勇者はスライムとの戦闘に勝利した");
+				break;
+			}
+
+			if(superHero.damage(slime.attack())) {
+				System.out.print("スライムはスーパー勇者との戦闘に勝利した");
+				break;
+
+			}
+		}
+
 
 		// ★ 勝利した方の出力を行ってください。「○○は■■との戦闘に勝利した」
 
