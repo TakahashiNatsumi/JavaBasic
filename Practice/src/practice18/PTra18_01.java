@@ -1,4 +1,5 @@
 /*
+
  * PTra18_01.java
  *   作成	LIKEIT	2017
  *------------------------------------------------------------
@@ -20,6 +21,7 @@ public class PTra18_01 {
             while (scanner.hasNext()) {
                 String line = scanner.nextLine();
                 // ★ 1行ごとにArrayListに格納してください
+                array.add(line);
 
             }
         } catch (FileNotFoundException e) {
@@ -28,6 +30,12 @@ public class PTra18_01 {
 
 		// ★ ArrayListに格納された値を全て表示してください
 		// ※ できれば拡張for文を使いましょう
+        		for(String words:array) {
+
+        			System.out.println(words);
+
+        		}
+
 
 	}
 }
