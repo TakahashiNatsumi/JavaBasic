@@ -8,11 +8,12 @@ public class Player {
 	String team;
 
 
-		public String getPosition() {
-			return position;
+
+		public String getCountry() {
+			return country;
 		}
-		public void setPosition(String position) {
-			this.position = position;
+		public void setCountry(String country) {
+			this.country = country;
 		}
 		public String getName() {
 			return name;
@@ -20,11 +21,11 @@ public class Player {
 		public void setName(String name) {
 			this.name = name;
 		}
-		public String getCountry() {
-			return country;
+		public String getPosition() {
+			return position;
 		}
-		public void setCountry(String country) {
-			this.country = country;
+		public void setPosition(String position) {
+			this.position = position;
 		}
 		public String getTeam() {
 			return team;
