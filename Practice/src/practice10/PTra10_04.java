@@ -37,7 +37,7 @@ public class PTra10_04 {
 			System.out.println("ユーザID（数字）、 ユーザ名、メールアドレス、パスワードをカンマ区切りで入力してください");
 
 			// ★ コマンドプロンプトに入力された値を、String型の変数lineに格納してください
-			String line = scanner.next();
+			String line = scanner.nextLine();
 
 			// ★ 変数lineに格納されている値を','で区切り、配列にしてください（Stringクラスのメソッドを使用します）
 			String[] array = line. split(",",4);

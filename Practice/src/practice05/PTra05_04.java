@@ -63,7 +63,8 @@ public class PTra05_04 {
 				break;
 
 			default:
-				break;
+				System.out.println("正しい値を入力してください");
+				flg = 0;
 		}
 		}
 	}

@@ -13,16 +13,16 @@ public class PTra07_02 {
 		int[] array = new int [1000];
 
 		// ★ 配列arrayに [1,2,3,4,5,6,7,・・・・,998,999,1000] を代入してください
-		for (int i = 0; i < 1000; i++) {
+		for (int i = 0; i < array.length; i++) {
 
 			array[i] = i+1;
 
 		}
 
 		// ★ 変数arrayに格納されている値を前から順番に全て表示してください
-		for (int y  = 0; y < 1000; y++) {
+		for (int y : array) {
 
-			System.out.println(array[y]);
+			System.out.println(y);
 
 		}
 

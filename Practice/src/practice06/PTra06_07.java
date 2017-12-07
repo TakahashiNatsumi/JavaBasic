@@ -26,14 +26,14 @@ public class PTra06_07 {
 		 */
 
 
-		for(int i = -1; i < 5; i++) {
+		for(int i = 0; i < 5; i++) {
 
-			for(int j = 0; j < i+1; j++) {
+			for(int j = 0; j < i; j++) {
 
 				System.out.print("⬛︎︎︎");
 			}
 
-			for(int x = 5; x > i+1; x--) {
+			for(int x = i; x < 5; x++) {
 
 				System.out.print("⬜︎");
 			}
@@ -41,14 +41,14 @@ public class PTra06_07 {
 				System.out.println("");
 		}
 
-		for(int i = -1; i < 3; i++) {
+		for(int i = 5; i > 0; i--) {
 
-			for(int j = 4; j > i+1; j--) {
+			for(int j = 0; j < i; j++) {
 
 				System.out.print("⬛︎︎︎");
 			}
 
-			for(int x = 0; x <= i + 1; x++) {
+			for(int x = i; x < 5; x++) {
 
 				System.out.print("⬜︎");
 			}

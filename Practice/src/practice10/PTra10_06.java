@@ -19,33 +19,36 @@ public class PTra10_06 {
 		 * 各carインスタンスのrunメソッドを実行して、それぞれ「目的地にまでn時間かかりました。残りのガソリンは、xリットルです」を出力してください。
 		 */
 
-		Car car1 = new Car();
+		Car[] cars = new Car[3];
 
-			car1.color = "緑";
-			car1.gasoline = 25;
+		Car car1 = new Car();
+		car1.color = "緑";
+		car1.gasoline = 25;
+		cars[0] = car1;
 
 		Car car2 = new Car();
-
-			car2.color = "青";
-			car2.gasoline = 30;
+		car2.color = "青";
+		car2.gasoline = 30;
+		cars[1] = car2;
 
 		Car car3 = new Car();
+		car3.color = "赤";
+		car3.gasoline = 10;
+		cars[2] = car3;
 
-			car3.color = "赤";
-			car3.gasoline = 15;
 
-		int restDistance = 100;
-		int count = 0;
+
+		for (Car car : cars) {
+
+			int restDistance = 100;
+			int count = 0;
 
 			while(true) {		//car1
 
-				int result = car1.run();
-
-//				System.out.println("count:" + count);
-//				System.out.println("result:" + result);
+				int result = car.run();
 
 				if(result == -1) {
-
+					System.out.println(car.color + "台目は目的地に到達できませんでした");
 					break;
 
 				}
@@ -55,56 +58,13 @@ public class PTra10_06 {
 
 				if (restDistance <= 0) {
 
-					System.out.println("car1は目的地にまで" + count + "時間かかりました。残りのガソリンは、" + car1.gasoline + "リットルです。");
+					System.out.println(car.color + "は目的地にまで" + count + "時間かかりました。残りのガソリンは、" + car.gasoline + "リットルです。");
 					break;
-						}
-
-
-			}
-
-			while(true) {		//car2
-
-				int result = car2.run();
-
-				if(result == -1) {
-
-					break;
-
 				}
 
-				restDistance -= result;
-				count++;
-
-				if (restDistance <= 0) {
-
-					System.out.println("car2は目的地にまで" + count + "時間かかりました。残りのガソリンは、" + car2.gasoline + "リットルです。");
-					break;
-						}
-
 
 			}
 
-			while(true) {		//car3
-
-				int result = car3.run();
-
-				if(result == -1) {
-
-					break;
-
-				}
-
-				restDistance -= result;
-				count++;
-
-				if (restDistance <= 0) {
-
-					System.out.println("car3は目的地にまで" + count + "時間かかりました。残りのガソリンは、" + car3.gasoline + "リットルです。");
-					break;
-						}
-
-
-			}
-
+		}
 	}
 }

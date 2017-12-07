@@ -56,7 +56,7 @@ public class PTra05_03 {
 				break;
 
 			default:
-				System.out.println("無関係です");
+				System.out.println("無効票です");
 				break;
 			}
 

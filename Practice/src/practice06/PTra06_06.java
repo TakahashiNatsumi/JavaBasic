@@ -20,14 +20,14 @@ public class PTra06_06 {
 		 * ■■■■□
 		 */
 
-		for(int i = -1; i < 4; i++) {
+		for(int i = 0; i < 5; i++) {
 
-			for(int j = 0; j < i+1; j++) {
+			for(int j = 0; j < i; j++) {
 
 				System.out.print("⬛︎︎︎");
 			}
 
-			for(int x = 5; x > i+1; x--) {
+			for(int x = i; x < 5; x++) {
 
 				System.out.print("⬜︎");
 			}

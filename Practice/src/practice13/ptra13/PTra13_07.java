@@ -21,6 +21,9 @@ public class PTra13_07 {
 		// ★ SuperHeroインスタンスとSlimeインスタンスを作成し、それぞれの名前に"勇者（装備あり）", "スライム"を設定してください
 		SuperHero superHero = new SuperHero();
 		Slime slime = new Slime();
+		superHero.setName("勇者（装備あり）");
+		slime.setName("スライム");
+
 
 		// ★ Itemクラスのインスタンスを作成し、("こんぼう", 4）をコンストラクタの引数にしてください
 		Item item = new Item("棍棒", 4);

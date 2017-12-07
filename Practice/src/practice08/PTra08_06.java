@@ -32,7 +32,7 @@ public class PTra08_06 {
 	// ★ dispValueを引数intでオーバーロードしてください。処理は同じ
 	public static void dispValue(int x) {
 
-		System.out.println(x);
+		System.out.println("「" + x + "」");
 
 	}
 
@@ -40,7 +40,7 @@ public class PTra08_06 {
 
 	public static void dispValue(double y) {
 
-		System.out.println(y);
+		System.out.println("「" + y + "」");
 
 	}
 
@@ -48,7 +48,7 @@ public class PTra08_06 {
 
 	public static void dispValue(char z) {
 
-		System.out.println(z);
+		System.out.println("「" + z + "」");
 
 	}
 

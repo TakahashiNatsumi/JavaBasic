@@ -29,6 +29,7 @@ public class PTra01_07 {
 		l = 70000000000000000l;
 		f = 6.5f;
 		d = 3.14;
+		c='顔';
 
 		// ★ それぞれの変数の中身を出力してください
 		System.out.println(bo);
@@ -38,6 +39,7 @@ public class PTra01_07 {
 		System.out.println(l);
 		System.out.println(f);
 		System.out.println(d);
+		System.out.println(c);
 
 
 
